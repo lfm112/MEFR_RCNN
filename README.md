@@ -1,4 +1,4 @@
-# Faster R-CNN
+# MEFR-CNN
 
 
 
@@ -21,7 +21,7 @@ VOCdevkit/
     │       ├── train.txt      # 训练集图像名列表（不含扩展名，每行一个）
     │       └── val.txt   # 训练+验证集图像名列表（可选）
     └── JPEGImages/
-        └── *.jpg              # 所有原始图像文件，格式通常为 JPG
+        └── *.png              # 所有原始图像文件，注意图像应为4通道rgba模式，表示rgb图像加红外图像
 ```
 
 
